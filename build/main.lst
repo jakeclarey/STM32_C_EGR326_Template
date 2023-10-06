@@ -1,0 +1,74 @@
+ARM GAS  /var/folders/q7/ryz901f13t9bnbp0tlpxn27c0000gn/T//ccnac9yc.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.arch armv7e-m
+   3              		.fpu fpv4-sp-d16
+   4              		.eabi_attribute 27, 1
+   5              		.eabi_attribute 28, 1
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 6
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.file 1 "Core/Src/main.c"
+  20              		.section	.text.main,"ax",%progbits
+  21              		.align	1
+  22              		.global	main
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	main:
+  28              	.LFB130:
+   1:Core/Src/main.c **** /*  Author:
+   2:Core/Src/main.c ****  *  Date:
+   3:Core/Src/main.c ****  *  Description:
+   4:Core/Src/main.c ****  *  Notes:
+   5:Core/Src/main.c ****  */
+   6:Core/Src/main.c **** 
+   7:Core/Src/main.c **** #include <stm32f446xx.h>
+   8:Core/Src/main.c **** 
+   9:Core/Src/main.c **** int main(void)
+  10:Core/Src/main.c **** {
+  29              		.loc 1 10 1
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 1, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+  34 0000 80B4     		push	{r7}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 4
+  37              		.cfi_offset 7, -4
+  38 0002 00AF     		add	r7, sp, #0
+  39              	.LCFI1:
+  40              		.cfi_def_cfa_register 7
+  41              	.L2:
+  11:Core/Src/main.c **** 
+  12:Core/Src/main.c ****   while (1) {} // while(1)
+  42              		.loc 1 12 9 discriminator 1
+  43 0004 00BF     		nop
+  44 0006 FDE7     		b	.L2
+  45              		.cfi_endproc
+  46              	.LFE130:
+ARM GAS  /var/folders/q7/ryz901f13t9bnbp0tlpxn27c0000gn/T//ccnac9yc.s 			page 2
+
+
+  48              		.text
+  49              	.Letext0:
+ARM GAS  /var/folders/q7/ryz901f13t9bnbp0tlpxn27c0000gn/T//ccnac9yc.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+/var/folders/q7/ryz901f13t9bnbp0tlpxn27c0000gn/T//ccnac9yc.s:21     .text.main:00000000 $t
+/var/folders/q7/ryz901f13t9bnbp0tlpxn27c0000gn/T//ccnac9yc.s:27     .text.main:00000000 main
+
+NO UNDEFINED SYMBOLS
